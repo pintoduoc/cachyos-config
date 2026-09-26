@@ -1,0 +1,83 @@
+2026-09-22 08:27:46.713 [info] Extension host with pid 14861 started
+2026-09-22 08:27:46.713 [info] Skipping acquiring lock for /home/pinto/.config/Code - OSS/User/workspaceStorage/d85847756a37541f59cca8eac4f13f70.
+2026-09-22 08:27:47.202 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-22 08:27:47.263 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage'
+2026-09-22 08:27:47.351 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onChatParticipant:github.copilot.editsAgent'
+2026-09-22 08:27:49.258 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2026-09-22 08:27:49.421 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-22 08:27:49.861 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-09-22 08:27:50.116 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-09-22 08:27:50.218 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-09-22 08:27:50.311 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-22 08:27:50.468 [info] Eager extensions activated
+2026-09-22 08:27:50.620 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 08:27:50.629 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 08:27:50.664 [info] ExtensionService#_doActivateExtension Postman.postman-for-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 08:27:58.446 [info] Extension host terminating: received terminate message from renderer
+2026-09-22 08:27:58.502 [info] Extension host with pid 14861 exiting with code 0
+2026-09-22 08:28:00.892 [info] Extension host with pid 15011 started
+2026-09-22 08:28:01.097 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-22 08:28:01.135 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage'
+2026-09-22 08:28:01.217 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-22 08:28:01.455 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-09-22 08:28:01.484 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-09-22 08:28:01.571 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-22 08:28:01.705 [info] Eager extensions activated
+2026-09-22 08:28:01.728 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 08:28:03.225 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 08:28:03.229 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 08:28:03.262 [info] ExtensionService#_doActivateExtension Postman.postman-for-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 08:28:04.500 [error] Error calling provideChatSessionProviderOptions for handle 1: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:28:04.515 [error] Error calling provideChatSessionProviderOptions for handle 1: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:28:04.625 [error] Error calling provideChatSessionProviderOptions for handle 1: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:28:04.644 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-09-22 08:28:04.722 [error] Error calling provideChatSessionProviderOptions for handle 1: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:28:04.735 [error] Error calling provideChatSessionProviderOptions for handle 1: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:28:04.879 [error] Error calling provideChatSessionProviderOptions for handle 1: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:28:37.226 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-22 08:28:37.245 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-22 08:28:37.405 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-09-22 08:28:47.779 [error] Error calling provideChatSessionProviderOptions for handle 1: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:28:47.842 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 08:28:49.090 [error] Error: ENOENT: no such file or directory, open '/home/pinto/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'
+2026-09-22 08:30:49.754 [info] Extension host terminating: received terminate message from renderer
+2026-09-22 08:30:49.794 [error] Error: ENOENT: no such file or directory, open '/home/pinto/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'
+2026-09-22 08:30:49.798 [info] Extension host with pid 15011 exiting with code 0
+2026-09-22 08:30:52.813 [info] Extension host with pid 16299 started
+2026-09-22 08:30:52.813 [info] Skipping acquiring lock for /home/pinto/.config/Code - OSS/User/workspaceStorage/150eecf3daa17daf4bb4324136357306.
+2026-09-22 08:30:52.858 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-09-22 08:30:52.896 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-09-22 08:30:52.992 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2026-09-22 08:30:53.000 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2026-09-22 08:30:53.119 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-09-22 08:30:53.193 [info] Eager extensions activated
+2026-09-22 08:30:53.287 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 08:30:53.292 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 08:30:53.332 [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 08:30:54.623 [error] Error: ENOENT: no such file or directory, open '/home/pinto/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'
+2026-09-22 08:30:58.195 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-09-22 08:30:58.208 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2026-09-22 08:30:58.254 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2026-09-22 08:31:04.752 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
+2026-09-22 08:31:04.924 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 08:31:06.483 [info] ExtensionService#_doActivateExtension Postman.postman-for-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-09-22 08:31:07.416 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage'
+2026-09-22 08:31:07.794 [info] ExtensionService#_doActivateExtension vscode.terminal-suggest, startup: false, activationEvent: 'onTerminalShellIntegration:*'
+2026-09-22 08:31:08.015 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-09-23 10:47:12.064 [info] Extension host terminating: received terminate message from renderer
+2026-09-23 10:47:12.107 [error] Error: ENOENT: no such file or directory, open '/home/pinto/.config/Code - OSS/User/globalStorage/vscodevim.vim/.registers'
+2026-09-23 10:47:12.108 [info] Extension host with pid 16299 exiting with code 0

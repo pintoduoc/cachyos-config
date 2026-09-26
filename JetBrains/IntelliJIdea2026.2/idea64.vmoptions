@@ -1,0 +1,5 @@
+-Dide.managed.by.toolbox=/opt/jetbrains-toolbox/jetbrains-toolbox
+-Dawt.toolkit.name=WLToolkit
+-Dtoolbox.notification.token=e5c7e178-ad15-4377-8b6d-858a0b331704
+-Dtoolbox.notification.portFile=/home/pinto/.cache/JetBrains/Toolbox/ports/f5081b6c-7db1-40ea-911c-69e2a3b7ca36.port
+-Xmx1960m

@@ -1,0 +1,108 @@
+2026-07-14 15:44:12.151 [info] Extension host with pid 9724 started
+2026-07-14 15:44:12.163 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2026-07-14 15:44:12.192 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2026-07-14 15:44:12.203 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onCustomEditor:vscode.markdown.preview.editor'
+2026-07-14 15:44:12.460 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2026-07-14 15:44:12.539 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2026-07-14 15:44:12.588 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2026-07-14 15:44:12.611 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2026-07-14 15:44:12.629 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-07-14 15:44:12.640 [info] ExtensionService#_doActivateExtension vscode.mermaid-markdown-features, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2026-07-14 15:44:12.855 [info] Eager extensions activated
+2026-07-14 15:44:12.881 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2026-07-14 15:44:12.884 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2026-07-14 15:45:05.447 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-07-14 15:45:05.451 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-07-14 15:45:05.501 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2026-07-14 15:45:23.581 [info] ExtensionService#_doActivateExtension Postman.postman-for-vscode, startup: false, activationEvent: 'onStartupFinished'
+2026-07-14 15:46:48.544 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2026-07-14 15:46:49.216 [error] Error calling provideChatSessionProviderOptions for handle 1: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-14 15:46:49.251 [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+2026-07-14 15:46:49.282 [error] Error calling provideChatSessionProviderOptions for handle 1: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-14 15:46:49.305 [error] Error calling provideChatSessionProviderOptions for handle 1: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-14 15:46:49.789 [error] Error calling provideChatSessionProviderOptions for handle 1: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-14 15:47:03.368 [error] Error: Webview is disposed
+	at DN.assertNotDisposed (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:673:112879)
+	at get webview (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:673:111840)
+	at $h.sendMessageToWebview (/home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:6981275)
+	at /home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:7222537
+	at Map.forEach (<anonymous>)
+	at PE.broadcast (/home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:7222522)
+	at /home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:7259404
+	at _g._executeContributedCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:534:48815)
+	at _g._doExecuteCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:534:47832)
+	at _g.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:534:47699)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:673:136859)
+	at y.<anonymous> (/home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:6603346)
+	at Generator.next (<anonymous>)
+	at /home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:6596118
+	at new Promise (<anonymous>)
+	at i (/home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:6595852)
+	at y.executeVSCodeCommand (/home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:6603230)
+	at Object.onDidTabClose (/home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:7228550)
+	at gp.value (/home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:6979789)
+	at E._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at DN.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:673:111739)
+	at i.$onDidDisposeWebviewPanel (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:673:114006)
+	at i._doInvokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:110678)
+	at i._invokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:110426)
+	at i._receiveRequest (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:109208)
+	at i._receiveOneMessage (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:108046)
+	at gp.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:106121)
+	at E._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ps.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at gp.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:852:9989)
+	at E._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ps.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:852:8160)
+	at MessagePortMain.emit (node:events:509:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at Object.emit (node:electron/js2c/utility_init:2:2934) postman-for-vscode.auth.cancel {"value":"Postman.postman-for-vscode","_lower":"postman.postman-for-vscode"}
+2026-07-14 15:47:04.372 [error] Error: Webview is disposed
+	at DN.assertNotDisposed (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:673:112879)
+	at get webview (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:673:111840)
+	at $h.sendMessageToWebview (/home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:6981275)
+	at /home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:7222537
+	at Map.forEach (<anonymous>)
+	at PE.broadcast (/home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:7222522)
+	at /home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:7259404
+	at _g._executeContributedCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:534:48815)
+	at _g._doExecuteCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:534:47832)
+	at _g.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:534:47699)
+	at Object.executeCommand (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:673:136859)
+	at y.<anonymous> (/home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:6603346)
+	at Generator.next (<anonymous>)
+	at /home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:6596118
+	at new Promise (<anonymous>)
+	at i (/home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:6595852)
+	at y.executeVSCodeCommand (/home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:6603230)
+	at Object.onDidTabClose (/home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:7228550)
+	at gp.value (/home/pinto/.vscode-oss/extensions/postman.postman-for-vscode-1.19.1-universal/dist/extension.js:2:6979789)
+	at E._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at DN.dispose (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:673:111739)
+	at i.$onDidDisposeWebviewPanel (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:673:114006)
+	at i._doInvokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:110678)
+	at i._invokeHandler (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:110426)
+	at i._receiveRequest (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:109208)
+	at i._receiveOneMessage (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:108046)
+	at gp.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:435:106121)
+	at E._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ps.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at gp.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:852:9989)
+	at E._deliver (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3244)
+	at E.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:431:3562)
+	at ps.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:433:8505)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:852:8160)
+	at MessagePortMain.emit (node:events:509:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at Object.emit (node:electron/js2c/utility_init:2:2934)
+2026-07-14 15:47:24.211 [error] Error calling provideChatSessionProviderOptions for handle 1: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-14 15:47:34.599 [error] Error calling provideChatSessionProviderOptions for handle 1: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-14 15:47:34.649 [info] ExtensionService#_doActivateExtension Vue.volar, startup: false, activationEvent: 'onLanguage'
+2026-07-14 15:47:58.847 [info] Extension host terminating: received terminate message from renderer
+2026-07-14 15:47:58.862 [info] Extension host with pid 9724 exiting with code 0

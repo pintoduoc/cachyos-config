@@ -1,0 +1,366 @@
+2026-09-22 08:27:43.565 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-22 08:27:43.627 [warning] Creation of workbench contribution 'workbench.contrib.agentHostPrewarm' took 55ms.
+2026-09-22 08:27:44.040 [info] [ChatModelSelection] event=initialize surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined rememberedModel=undefined availableModels="copilot/auto" selection="apply" resultModel="copilot/auto" resultReason="firstAvailable" pendingReference=undefined
+2026-09-22 08:27:44.755 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-22 08:27:44.874 [info] Started local extension host with pid 14861.
+2026-09-22 08:27:45.233 [info] [AgentHost:renderer] Protocol connection established; clientId=c112ade2-d0a7-4e36-a12a-09163c687d96
+2026-09-22 08:27:46.019 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-22 08:27:46.019 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-22 08:27:46.020 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-22 08:27:46.080 [error] [Postman.postman-for-vscode]: Failed to register tool 'selectEnvironment': Error: Tool "selectEnvironment" is already registered.
+2026-09-22 08:27:46.140 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2026-09-22 08:27:48.145 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-22 08:27:49.207 [info] Auto updating outdated extensions. vue.volar
+2026-09-22 08:27:49.533 [error] [Extension Host] Error: Cannot find module 'source-map-support'
+Require stack:
+- /usr/lib/code/extensions/copilot/dist/extension.js
+- /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16269)
+	at n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:682:29582)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+	at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+	at defaultResolve (node:internal/modules/cjs/loader:1159:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:843)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:685:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1172:25)
+	at Module._load (node:internal/modules/cjs/loader:1301:5)
+	at Module.<anonymous> (node:electron/js2c/node_init:2:18068)
+	at i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:851:6673)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:682:29304)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:674:26756)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+	at Module.require (node:internal/modules/cjs/loader:1624:12)
+	at Module.require (/usr/lib/code/extensions/copilot/dist/extension.js:273:36345)
+	at require (node:internal/modules/helpers:153:16)
+	at Object.pns [as configureDevPackages] (/usr/lib/code/extensions/copilot/dist/extension.js:6973:1385)
+	at BCn (/usr/lib/code/extensions/copilot/dist/extension.js:1079:8323)
+	at mns (/usr/lib/code/extensions/copilot/dist/extension.js:6973:1536)
+	at dc._callActivateOptional (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:19039)
+	at dc._callActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:18749)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:16723
+	at async Ob._activate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:542:16021)
+	at async Ob._waitForDepsThenActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:542:15963)
+	at async Ob._initialize (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:542:15330)
+2026-09-22 08:27:49.984 [error] Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16269)
+	at n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:682:29582)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+	at defaultResolve (node:internal/modules/cjs/loader:1159:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:843)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:685:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1172:25)
+	at require.resolve (node:internal/modules/helpers:171:31)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:1999)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:685:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at ModuleLoader.resolveSync (node:internal/modules/esm/loader:747:16)
+	at #resolve (node:internal/modules/esm/loader:683:17)
+	at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+	at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:632:32)
+	at TracingChannel.tracePromise (node:diagnostics_channel:362:14)
+	at ModuleLoader.import (node:internal/modules/esm/loader:628:21)
+	at defaultImportModuleDynamicallyForScript (node:internal/modules/esm/utils:239:31)
+	at importModuleDynamicallyCallback (node:internal/modules/esm/utils:263:12)
+	at FZ.getPackage (/usr/lib/code/extensions/copilot/dist/extension.js:2781:15460)
+2026-09-22 08:27:51.120 [info] [perf] Render performance baseline is 74ms
+2026-09-22 08:27:51.795 [error] [Extension Host] (node:14861) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-22 08:27:51.834 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:27:51.835 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:27:52.077 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:27:52.077 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:27:52.218 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-09-22 08:27:52.240 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-09-22 08:27:53.146 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-22 08:27:54.211 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:27:54.212 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:27:55.740 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+2026-09-22 08:27:58.351 [warning] [backup tracker] suspended, ignoring dirty change event file:///home/pinto/.config/waybar/style.css 
+2026-09-22 08:27:58.541 [warning] [DefaultAccount] Attempt 1 to get sessions failed: Canceled
+2026-09-22 08:27:59.455 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-22 08:27:59.663 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-22 08:27:59.687 [info] [AgentHost:renderer] Protocol connection established; clientId=fe6a377b-341a-4d60-9240-68454a8377da
+2026-09-22 08:27:59.696 [info] Started local extension host with pid 15011.
+2026-09-22 08:28:00.055 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-22 08:28:00.055 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-22 08:28:00.056 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-22 08:28:00.078 [error] [Postman.postman-for-vscode]: Failed to register tool 'selectEnvironment': Error: Tool "selectEnvironment" is already registered.
+2026-09-22 08:28:00.102 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2026-09-22 08:28:00.534 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-22 08:28:01.619 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-09-22 08:28:01.649 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-09-22 08:28:02.679 [info] [perf] Render performance baseline is 56ms
+2026-09-22 08:28:04.192 [error] [Extension Host] (node:15011) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-22 08:28:04.196 [error] [Extension Host] Error: Cannot find module 'source-map-support'
+Require stack:
+- /usr/lib/code/extensions/copilot/dist/extension.js
+- /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16269)
+	at n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:682:29582)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+	at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+	at defaultResolve (node:internal/modules/cjs/loader:1159:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:843)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:685:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1172:25)
+	at Module._load (node:internal/modules/cjs/loader:1301:5)
+	at Module.<anonymous> (node:electron/js2c/node_init:2:18068)
+	at i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:851:6673)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:682:29304)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:674:26756)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+	at Module.require (node:internal/modules/cjs/loader:1624:12)
+	at Module.require (/usr/lib/code/extensions/copilot/dist/extension.js:273:36345)
+	at require (node:internal/modules/helpers:153:16)
+	at Object.pns [as configureDevPackages] (/usr/lib/code/extensions/copilot/dist/extension.js:6973:1385)
+	at BCn (/usr/lib/code/extensions/copilot/dist/extension.js:1079:8323)
+	at mns (/usr/lib/code/extensions/copilot/dist/extension.js:6973:1536)
+	at dc._callActivateOptional (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:19039)
+	at dc._callActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:18749)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:16723
+	at async Ob._activate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:542:16021)
+	at async Ob._waitForDepsThenActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:542:15963)
+	at async Ob._initialize (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:542:15330)
+2026-09-22 08:28:04.526 [error] Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16269)
+	at n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:682:29582)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+	at defaultResolve (node:internal/modules/cjs/loader:1159:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:843)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:685:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1172:25)
+	at require.resolve (node:internal/modules/helpers:171:31)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:1999)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:685:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at ModuleLoader.resolveSync (node:internal/modules/esm/loader:747:16)
+	at #resolve (node:internal/modules/esm/loader:683:17)
+	at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+	at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:632:32)
+	at TracingChannel.tracePromise (node:diagnostics_channel:362:14)
+	at ModuleLoader.import (node:internal/modules/esm/loader:628:21)
+	at defaultImportModuleDynamicallyForScript (node:internal/modules/esm/utils:239:31)
+	at importModuleDynamicallyCallback (node:internal/modules/esm/utils:263:12)
+	at FZ.getPackage (/usr/lib/code/extensions/copilot/dist/extension.js:2781:15460)
+2026-09-22 08:28:04.873 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:28:04.874 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:28:05.535 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-22 08:28:19.232 [error] [Extension Host] (node:15011) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-09-22 08:28:49.092 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-22 08:30:45.406 [error] [Extension Host] (node:15011) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+2026-09-22 08:30:50.807 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-22 08:30:51.039 [info] [ChatModelSelection] event=initialize surface="workbench" sessionKey=undefined conversationKey=undefined modelTarget=undefined storageKey="chat.currentLanguageModel.panel" widgetViewKind="view" configuredModel=undefined rememberedModel=undefined availableModels="copilot/auto" selection="apply" resultModel="copilot/auto" resultReason="firstAvailable" pendingReference=undefined
+2026-09-22 08:30:51.581 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-22 08:30:51.724 [info] Started local extension host with pid 16299.
+2026-09-22 08:30:51.935 [info] [AgentHost:renderer] Protocol connection established; clientId=f0ef1d53-b709-42ad-b565-49ce412d4ff3
+2026-09-22 08:30:52.164 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-22 08:30:52.164 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-22 08:30:52.165 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-22 08:30:52.966 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-22 08:30:53.690 [info] [AgentHost] Authenticating for resource: https://api.github.com
+2026-09-22 08:30:53.757 [info] [AgentHost] Authenticating for resource: https://api.github.com/repos
+2026-09-22 08:30:54.667 [error] An unknown error occurred. Please consult the log for more details.
+2026-09-22 08:30:55.715 [info] [perf] Render performance baseline is 54ms
+2026-09-22 08:30:57.966 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-22 08:31:04.054 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-22 08:31:04.055 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-22 08:31:04.055 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-22 08:31:04.102 [error] [Postman.postman-for-vscode]: Failed to register tool 'selectEnvironment': Error: Tool "selectEnvironment" is already registered.
+2026-09-22 08:31:04.141 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2026-09-22 08:31:07.417 [error] [Extension Host] (node:16299) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-09-22 08:31:07.497 [error] [Extension Host] Error: Cannot find module 'source-map-support'
+Require stack:
+- /usr/lib/code/extensions/copilot/dist/extension.js
+- /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16269)
+	at n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:682:29582)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+	at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+	at defaultResolve (node:internal/modules/cjs/loader:1159:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:843)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:685:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1172:25)
+	at Module._load (node:internal/modules/cjs/loader:1301:5)
+	at Module.<anonymous> (node:electron/js2c/node_init:2:18068)
+	at i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:851:6673)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:682:29304)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:674:26756)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+	at Module.require (node:internal/modules/cjs/loader:1624:12)
+	at Module.require (/usr/lib/code/extensions/copilot/dist/extension.js:273:36345)
+	at require (node:internal/modules/helpers:153:16)
+	at Object.pns [as configureDevPackages] (/usr/lib/code/extensions/copilot/dist/extension.js:6973:1385)
+	at BCn (/usr/lib/code/extensions/copilot/dist/extension.js:1079:8323)
+	at mns (/usr/lib/code/extensions/copilot/dist/extension.js:6973:1536)
+	at dc._callActivateOptional (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:19039)
+	at dc._callActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:18749)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:546:16723
+	at async Ob._activate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:542:16021)
+	at async Ob._waitForDepsThenActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:542:15963)
+	at async Ob._initialize (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:542:15330)
+2026-09-22 08:31:07.789 [error] Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js: Error: Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16269)
+	at n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:682:29582)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+	at defaultResolve (node:internal/modules/cjs/loader:1159:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:843)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:685:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1172:25)
+	at require.resolve (node:internal/modules/helpers:171:31)
+	at resolve (file:///usr/lib/code/out/bootstrap-fork.js:409:1999)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:685:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at ModuleLoader.resolveSync (node:internal/modules/esm/loader:747:16)
+	at #resolve (node:internal/modules/esm/loader:683:17)
+	at ModuleLoader.getOrCreateModuleJob (node:internal/modules/esm/loader:603:35)
+	at onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:632:32)
+	at TracingChannel.tracePromise (node:diagnostics_channel:362:14)
+	at ModuleLoader.import (node:internal/modules/esm/loader:628:21)
+	at defaultImportModuleDynamicallyForScript (node:internal/modules/esm/utils:239:31)
+	at importModuleDynamicallyCallback (node:internal/modules/esm/utils:263:12)
+	at FZ.getPackage (/usr/lib/code/extensions/copilot/dist/extension.js:2781:15460)
+2026-09-22 08:31:08.508 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:31:08.509 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:31:08.543 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:31:08.544 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:31:08.612 [error] [Extension Host] (node:16299) [DEP0169] DeprecationWarning: `url.parse()` behavior is not standardized and prone to errors that have security implications. Use the WHATWG URL API instead. CVEs are not issued for `url.parse()` vulnerabilities.
+2026-09-22 08:35:00.295 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:35:00.296 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:55:12.348 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:55:12.349 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:55:15.306 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:55:15.307 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:55:20.253 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:55:20.253 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:55:24.201 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:55:24.202 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:55:37.779 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:55:37.780 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:56:37.985 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 08:56:37.985 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 09:00:09.786 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 09:00:09.786 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 09:00:58.793 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-22 09:00:58.793 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-23 10:47:06.472 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-23 10:47:06.476 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-23 10:47:10.402 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js
+2026-09-23 10:47:10.402 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module './@github/copilot/sdk'
+Require stack:
+- /usr/lib/code/node_modules.asar/x.js

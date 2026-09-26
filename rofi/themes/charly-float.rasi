@@ -1,0 +1,100 @@
+* {
+    /* Paleta de colores basada en tu fondo */
+    bg: #000000;
+    bg-alt: #1A1A1A;
+    fg: #F4E2C7;
+    fg-alt: #8C8273;
+
+    background-color: @bg;
+    text-color: @fg;
+    font: "Sans 12"; /* Cambia por tu fuente favorita */
+}
+
+window {
+    width: 40%;
+    padding: 20px;
+    border: 2px solid;
+    border-color: @fg;
+    border-radius: 12px;
+    location: center;
+    anchor: center;
+}
+
+mainbox {
+    spacing: 15px;
+    children: [ inputbar, message, listview ];
+}
+inputbar {
+    background-color: @bg-alt;
+    padding: 12px;
+    border-radius: 8px;
+    children: [ prompt, entry ];
+}
+
+prompt {
+    background-color: inherit;
+    text-color: @fg;
+    padding: 0 10px 0 0;
+    font: "Sans Bold 12";
+}
+
+entry {
+    background-color: inherit;
+    text-color: @fg;
+    placeholder: "Escribir para filtrar...";
+    placeholder-color: @fg-alt;
+}
+
+listview {
+    lines: 7;
+    spacing: 8px;
+    scrollbar: false;
+    border: 0px;
+}
+
+element {
+    padding: 10px;
+    border-radius: 6px;
+    background-color: transparent;
+}
+
+element normal.normal {
+    background-color: transparent;
+    text-color: @fg;
+}
+
+element alternate.normal {
+    background-color: transparent;
+    text-color: @fg;
+}
+
+element selected.normal {
+    background-color: @bg-alt;
+    text-color: #7A7263;
+    border: 1px solid;
+    border-color: @fg;
+}
+
+element-text {
+    background-color: inherit;
+    text-color: inherit;
+    vertical-align: 0.5;
+}
+
+element-icon {
+    background-color: inherit;
+    size: 1.2em;
+    padding: 0 10px 0 0;
+}
+
+message {
+    background-color: @bg-alt;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+textbox {
+    text-color: @fg;
+    background-color: inherit;
+    font: "Sans Bold 14"; /* Un poco más grande para que el resultado resalte */
+}

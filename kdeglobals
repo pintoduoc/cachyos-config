@@ -1,0 +1,10 @@
+[KShortcutsDialog Settings]
+Dialog Size=600,480
+
+[PreviewSettings]
+EnableRemoteFolderThumbnail=false
+MaximumRemoteSize=0
+
+[General]
+TerminalApplication=alacritty
+TerminalService=Alacritty.desktop

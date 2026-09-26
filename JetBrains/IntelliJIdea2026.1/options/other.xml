@@ -1,0 +1,43 @@
+<application>
+  <component name="LangManager">
+    <option name="languageName" value="JAVA" />
+  </component>
+  <component name="NotRoamableUiSettings">
+    <option name="fontSize" value="15.0" />
+    <option name="presentationModeIdeScale" value="1.75" />
+  </component>
+  <component name="PropertyService"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.AIPromoWindowAdvisorPreheat": "true",
+    "SettingsSearchHistory": "way",
+    "evlsprt3.261": "7",
+    "experimental.ui.on.first.startup": "true",
+    "experimental.ui.used.version": "261.25134.95",
+    "fileTypeChangedCounter": "1",
+    "fontSizeToResetConsole": "13.0",
+    "fontSizeToResetEditor": "13.0",
+    "got.it.tooltip.Plugins Auto-Update": "1",
+    "ide.islands.ab3": "true",
+    "ide.islands.new.darcula": "true",
+    "input.method.disabler.muted": "true",
+    "previousColorScheme": "_@user_Islands Dark",
+    "registry.to.advanced.settings.migration.build": "IU-261.25134.95",
+    "trial.state.last.availability.check": "1782246966672",
+    "trial.state.last.availability.state": "false",
+    "trial.state.last.state": "FREE"
+  },
+  "keyToStringList": {
+    "fileTypeDetectors": [
+      "com.intellij.ide.scratch.ScratchFileServiceImpl$Detector",
+      "com.intellij.database.vfs.DbStorageFileType$Detector",
+      "com.intellij.docker.dockerFile.DockerFileTypeDetector",
+      "org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector"
+    ]
+  }
+}]]></component>
+  <component name="ReworkedTerminalUsage">{
+  &quot;firstIdeSessionMoment&quot;: {
+    &quot;type&quot;: &quot;org.jetbrains.plugins.terminal.TerminalFirstIdeSessionMoment.BeforeTrackingStarted&quot;
+  }
+}</component>
+</application>

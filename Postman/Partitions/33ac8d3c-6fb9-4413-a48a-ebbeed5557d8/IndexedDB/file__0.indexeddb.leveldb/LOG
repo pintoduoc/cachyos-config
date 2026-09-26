@@ -1,0 +1,6 @@
+2026/07/14-15:52:08.344 4954 Creating DB /home/pinto/.config/Postman/Partitions/33ac8d3c-6fb9-4413-a48a-ebbeed5557d8/IndexedDB/file__0.indexeddb.leveldb since it was missing.
+2026/07/14-15:52:08.349 4954 Reusing MANIFEST /home/pinto/.config/Postman/Partitions/33ac8d3c-6fb9-4413-a48a-ebbeed5557d8/IndexedDB/file__0.indexeddb.leveldb/MANIFEST-000001
+2026/07/14-15:52:08.353 4954 Level-0 table #5: started
+2026/07/14-15:52:08.355 4954 Level-0 table #5: 497 bytes OK
+2026/07/14-15:52:08.357 4954 Delete type=0 #3
+2026/07/14-15:52:08.357 4954 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

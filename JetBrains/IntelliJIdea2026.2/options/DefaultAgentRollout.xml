@@ -1,0 +1,8 @@
+<application>
+  <component name="DefaultAgentRollout">
+    <option name="agent_id" value="acp.registry.junie" />
+    <option name="decision" value="YES" />
+    <option name="options" value="[{&quot;model&quot;:&quot;gemini-3.7-flash&quot;,&quot;effort&quot;:&quot;medium&quot;},{&quot;model&quot;:&quot;gpt-5.6-luna&quot;,&quot;effort&quot;:&quot;medium&quot;}]" />
+    <option name="version" value="1" />
+  </component>
+</application>

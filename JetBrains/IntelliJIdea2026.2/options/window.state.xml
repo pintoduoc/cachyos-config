@@ -1,0 +1,29 @@
+<application>
+  <component name="DimensionService">
+    <size key="GridCell.Tab.0.left.0.0.3072.1728@192dpi" width="2860" height="450" />
+    <size key="GridCell.Tab.0.center.0.0.3072.1728@192dpi" width="2860" height="450" />
+    <size key="GridCell.Tab.0.right.0.0.3072.1728@192dpi" width="2860" height="450" />
+    <size key="GridCell.Tab.0.bottom.0.0.3072.1728@192dpi" width="2860" height="450" />
+  </component>
+  <component name="WindowManager">
+    <frame x="0" y="0" width="749" height="810" extendedState="6" />
+  </component>
+  <component name="WindowStateApplicationService">
+    <state width="725" height="136" key="ShowUsagesActions.dimensionServiceKey" timestamp="1790355927569">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="725" height="136" key="ShowUsagesActions.dimensionServiceKey/0.0.1536.864" timestamp="1790355927569" />
+    <state x="0" y="0" key="UniversalFileChooserDialog" timestamp="1790356482250">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="0" y="0" key="UniversalFileChooserDialog/0.0.1536.864" timestamp="1790356482250" />
+    <state x="400" y="405" width="800" height="810" key="WELCOME_SCREEN" timestamp="1790356486108">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="400" y="405" width="800" height="810" key="WELCOME_SCREEN/0.0.1536.864" timestamp="1790356486108" />
+    <state x="0" y="263" key="ide.config.custom.settings" timestamp="1788957793678">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="0" y="263" key="ide.config.custom.settings/0.0.1536.864" timestamp="1788957793678" />
+  </component>
+</application>

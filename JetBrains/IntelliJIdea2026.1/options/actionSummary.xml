@@ -1,0 +1,28 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="EditCustomProperties">
+      <i c="1" l="1782246973188" />
+    </e>
+    <e n="EditCustomVmOptions">
+      <i c="1" l="1782247029193" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="5" l="1782247113064" />
+    </e>
+    <e n="EditorEnter">
+      <i c="1" l="1782247060110" />
+    </e>
+    <e n="EditorPaste">
+      <i c="1" l="1782247061705" />
+    </e>
+    <e n="WelcomeScreen.Settings">
+      <i c="1" l="1782247092579" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
+      <i c="1" l="1782247114269" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+      <i c="4" l="1782247085412" />
+    </e>
+  </component>
+</application>

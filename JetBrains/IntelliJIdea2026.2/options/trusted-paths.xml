@@ -1,0 +1,20 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/IdeaProjects/Backend_Grupo11_CloudNative003D" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/CloudNative1_DemoEntregada" value="true" />
+        <entry key="$USER_HOME$/IdeaProjects/CloudNative1_DemoEntregada/BackendAzure" value="true" />
+        <entry key="$USER_HOME$/projects/cloudnative-grupo11/Backend_Grupo11_CloudNative003D" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/IdeaProjects" />
+        <option value="$USER_HOME$/projects/cloudnative-grupo11" />
+      </list>
+    </option>
+  </component>
+</application>

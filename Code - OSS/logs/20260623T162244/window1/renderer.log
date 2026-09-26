@@ -1,0 +1,5 @@
+2026-06-23 16:22:46.042 [info] Started local extension host with pid 5157.
+2026-06-23 16:22:46.080 [info] Started initializing default profile extensions in extensions installation folder. file:///home/pinto/.vscode-oss/extensions
+2026-06-23 16:22:46.206 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/pinto/.vscode-oss/extensions
+2026-06-23 16:22:46.553 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-06-23 16:22:49.036 [info] [perf] Render performance baseline is 17ms

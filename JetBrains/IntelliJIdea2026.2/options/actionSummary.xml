@@ -1,0 +1,181 @@
+<application>
+  <component name="ActionsLocalSummary">
+    <e n="$Copy">
+      <i c="3" l="1790356965479" />
+    </e>
+    <e n="$Undo">
+      <i c="15" l="1790358594710" />
+    </e>
+    <e n="AutoIndentLines">
+      <i c="2" l="1790356966668" />
+    </e>
+    <e n="CloseProject">
+      <i c="2" l="1790356469355" />
+    </e>
+    <e n="CodeCompletion">
+      <i c="1" l="1790356978577" />
+    </e>
+    <e n="EditCustomProperties">
+      <i c="2" l="1788957777037" />
+    </e>
+    <e n="EditCustomVmOptions">
+      <i c="3" l="1788957782710" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="61" l="1790356981279" />
+    </e>
+    <e n="EditorChooseLookupItem">
+      <i c="1" l="1790354785280" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="3" l="1790356825285" />
+    </e>
+    <e n="EditorDelete">
+      <i c="2" l="1790356982410" />
+    </e>
+    <e n="EditorDeleteToWordEnd">
+      <i c="9" l="1790341865665" />
+    </e>
+    <e n="EditorDeleteToWordStart">
+      <i c="14" l="1790358598273" />
+    </e>
+    <e n="EditorDown">
+      <i c="1" l="1790356826042" />
+    </e>
+    <e n="EditorEnter">
+      <i c="9" l="1790356994752" />
+    </e>
+    <e n="EditorEscape">
+      <i c="2" l="1790357066990" />
+    </e>
+    <e n="EditorLeft">
+      <i c="2" l="1790358596597" />
+    </e>
+    <e n="EditorPaste">
+      <i c="2" l="1790356978863" />
+    </e>
+    <e n="EditorUp">
+      <i c="2" l="1790356844412" />
+    </e>
+    <e n="Exit">
+      <i c="1" l="1790341871159" />
+    </e>
+    <e n="ExternalSystem.ProjectRefreshAction">
+      <i c="2" l="1790357079679" />
+    </e>
+    <e n="GenerateDTD">
+      <i c="1" l="1790356950269" />
+    </e>
+    <e n="Git.Commit.And.Push.Executor">
+      <i c="2" l="1790358606540" />
+    </e>
+    <e n="HideAllWindows">
+      <i c="1" l="1790078415252" />
+    </e>
+    <e n="InsertInlineCompletionAction">
+      <i c="1" l="1790356809991" />
+    </e>
+    <e n="Maven.ReimportProject">
+      <i c="3" l="1790357219447" />
+    </e>
+    <e n="Maven.SyncAllSplitAction">
+      <i c="1" l="1790357211618" />
+    </e>
+    <e n="Maven.UpdateFolders">
+      <i c="3" l="1790357207263" />
+    </e>
+    <e n="NewProject">
+      <i c="1" l="1790337836016" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="2" l="1790357313188" />
+    </e>
+    <e n="Run">
+      <i c="5" l="1790357315412" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="4" l="1790356631985" />
+    </e>
+    <e n="ShowIntentionActions">
+      <i c="4" l="1790357247483" />
+    </e>
+    <e n="ShowProjectStructureSettings">
+      <i c="2" l="1790356633563" />
+    </e>
+    <e n="ShowSettings">
+      <i c="5" l="1790356623911" />
+    </e>
+    <e n="Tree-selectAll">
+      <i c="1" l="1790357205826" />
+    </e>
+    <e n="TrialStateWidget">
+      <i c="1" l="1790076685115" />
+    </e>
+    <e n="Vcs.VcsClone">
+      <i c="2" l="1790354710055" />
+    </e>
+    <e n="VimPluginToggle">
+      <i c="1" l="1790356976895" />
+    </e>
+    <e n="WelcomeScreen.CopyProjectPath">
+      <i c="1" l="1790341896684" />
+    </e>
+    <e n="WelcomeScreen.OpenProject">
+      <i c="1" l="1790356471235" />
+    </e>
+    <e n="WelcomeScreen.Settings">
+      <i c="1" l="1782247092579" />
+    </e>
+    <e n="com.intellij.application.options.schemes.AbstractSchemesPanel$ShowSchemesActionsListAction">
+      <i c="1" l="1788957924879" />
+    </e>
+    <e n="com.intellij.codeInsight.daemon.NavigateAction">
+      <i c="1" l="1790355952684" />
+    </e>
+    <e n="com.intellij.execution.ui.RunToolbarPopupKt$createCurrentFileWithInlineActions$1">
+      <i c="1" l="1790357314371" />
+    </e>
+    <e n="com.intellij.ide.ReopenProjectAction">
+      <i c="1" l="1790356674522" />
+    </e>
+    <e n="com.intellij.notification.NotificationAction$Simple">
+      <i c="2" l="1790357159999" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.AnActionWrapper">
+      <i c="103" l="1790356971670" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="5" l="1790358523305" />
+    </e>
+    <e n="com.intellij.openapi.ui.DialogWrapper$5">
+      <i c="2" l="1790358679801" />
+    </e>
+    <e n="com.intellij.openapi.ui.impl.DialogWrapperPeerImpl$AnCancelAction">
+      <i c="1" l="1789473024775" />
+    </e>
+    <e n="com.intellij.openapi.updateSettings.impl.UpdateSettingsEntryPointActionProvider$2">
+      <i c="1" l="1790356597560" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.SquareAnActionButton">
+      <i c="37" l="1790358564019" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="5" l="1790358672988" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.welcomeScreen.WelcomeScreenComponentFactory$4">
+      <i c="11" l="1789473470740" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="2" l="1790357223472" />
+    </e>
+    <e n="com.intellij.ui.NotificationBalloonActionProvider$4">
+      <i c="1" l="1790357015375" />
+    </e>
+    <e n="com.intellij.ui.ScrollingUtil$ListMoveDownAction">
+      <i c="1" l="1790354726672" />
+    </e>
+    <e n="copilot.git.commit.button">
+      <i c="1" l="1790358572749" />
+    </e>
+  </component>
+</application>

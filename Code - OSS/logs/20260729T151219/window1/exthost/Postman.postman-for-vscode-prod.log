@@ -1,0 +1,22 @@
+(2026-07-29T19:12:28.327Z) [info] [extension] Registered language model tool: openRequest
+(2026-07-29T19:12:28.327Z) [info] [extension] Registered language model tool: sendRequest
+(2026-07-29T19:12:28.327Z) [info] [extension] Registered language model tool: getCurrentWorkspace
+(2026-07-29T19:12:28.328Z) [info] [extension] Registered language model tool: switchWorkspace
+(2026-07-29T19:12:28.328Z) [info] [extension] Registered language model tool: runCollection
+(2026-07-29T19:12:28.328Z) [info] [extension] Registered language model tool: getSelectedEnvironment
+(2026-07-29T19:12:28.329Z) [info] [extension] Registered language model tool: selectEnvironment
+(2026-07-29T19:12:28.331Z) [info] [extension] Extension activation started: 1785352348294
+(2026-07-29T19:12:28.336Z) [info] [extension:packageManager] $$ ExternalPackageStore initialized with local data
+(2026-07-29T19:12:28.700Z) [info] [extension] Extension activation completed: 1785352348700
+(2026-07-29T19:12:28.700Z) [info] [extension] Extension activation took 406ms
+(2026-07-29T19:12:56.828Z) [info] [extension] Registered language model tool: openRequest
+(2026-07-29T19:12:56.829Z) [info] [extension] Registered language model tool: sendRequest
+(2026-07-29T19:12:56.829Z) [info] [extension] Registered language model tool: getCurrentWorkspace
+(2026-07-29T19:12:56.829Z) [info] [extension] Registered language model tool: switchWorkspace
+(2026-07-29T19:12:56.829Z) [info] [extension] Registered language model tool: runCollection
+(2026-07-29T19:12:56.830Z) [info] [extension] Registered language model tool: getSelectedEnvironment
+(2026-07-29T19:12:56.830Z) [info] [extension] Registered language model tool: selectEnvironment
+(2026-07-29T19:12:56.833Z) [info] [extension] Extension activation started: 1785352376796
+(2026-07-29T19:12:56.836Z) [info] [extension:packageManager] $$ ExternalPackageStore initialized with local data
+(2026-07-29T19:12:57.085Z) [info] [extension] Extension activation completed: 1785352377085
+(2026-07-29T19:12:57.085Z) [info] [extension] Extension activation took 289ms

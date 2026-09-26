@@ -1,0 +1,126 @@
+// -*- mode: jsonc -*-
+{
+    // "layer": "top", // Waybar at top layer
+    // "position": "bottom", // Waybar position (top|bottom|left|right)
+    "height": 30, // Waybar height (to be removed for auto height)
+    // "width": 1280, // Waybar width
+    "spacing": 4, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": [
+        "hyprland/workspaces"
+    ],
+    "modules-center": [
+        "clock"
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "bluetooth",
+        "network",
+        "backlight",
+        "power-profiles-daemon",
+        "battery",
+        "custom/power"
+    ],
+    "clock": {
+        "format": "{:%A %d/%m, %R}",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calendar": {
+            "mode"             : "month",
+            "mode-mon-col"     : 3,
+            "weeks-pos"        : "left",
+            "first-day-of-week": 1,
+            "on-scroll"        : 1,
+            "on-click-right"   : "mode",
+              "format": {
+                "months":     "<span color='#f7f3ed'><b>{}</b></span>",
+                "days":       "<span color='#E5E9F0'><b>{}</b></span>",
+                "weeks":      "<span color='#5E81AC'><b>W{}</b></span>",
+                "weekdays":   "<span color='#5E81AC'><b>{}</b></span>",
+                "today":      "<span color='#c2433a'><b><u>{}</u></b></span>"
+              }
+        },
+        "actions": {
+            "on-click-forward": "tz_up",
+            "on-click-backward": "tz_down",
+            "on-scroll-up": "shift_up",
+            "on-scroll-down": "shift_down"
+        }
+    },
+    "backlight": {
+        // "device": "acpi_video1",
+        "format": "{percent}% {icon}",
+        "format-icons": ["☀"],
+        "tooltip": false
+    },
+    "battery": {
+        "states": {
+            // "good": 95,
+            "warning": 30,
+            "critical": 25
+        },
+        "format": "{capacity}% {icon}",
+        "format-full": "{capacity}% {icon}",
+        "format-charging": "{capacity}% ",
+        "format-plugged": "{capacity}% ",
+        "format-alt": "{time} {icon}",
+        "format-icons": ["", "", "", "", ""],
+        "tooltip": false
+    },
+    "power-profiles-daemon": {
+      "format": "{icon}",
+      "tooltip-format": "Power profile: {profile}\nDriver: {driver}",
+      "tooltip": true,
+      "format-icons": {
+        "default": "",
+        "performance": "",
+        "balanced": "",
+        "power-saver": ""
+      }
+    },
+    "network": {
+        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}",
+        "format-alt-click": "click-right",
+        "tooltip": false,
+        "on-click": "networkmanager_dmenu",
+        "on-click-middle": "bash /home/pinto/.config/waybar/scripts/wifiToggle.bash"
+    },
+    "pulseaudio": {
+        "format": "{volume}% {icon} {format_source}",
+        "format-muted": "{volume}%   {format_source}", 
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-source": "{volume}% ",
+        "format-source-muted": "",
+        "format-icons": {
+            "default": ["", "", ""]
+        },
+        "on-click": "rofi-mixer",
+        "on-click-middle": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+        "scroll-step": 0.1
+    },
+    "bluetooth": {
+        // "controller": "controller1", // specify the alias of the controller if there are more than 1 on the system
+        "format": " {status}",
+        "format-disabled": "", // an empty format will hide the module
+        "format-connected": " {num_connections} connected",
+        "tooltip-format": "{controller_alias}\t{controller_address}",
+        "tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{device_enumerate}",
+        "tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+        "on-click": "rofi-bluetooth"
+    },
+    "custom/power": {
+        "format" : "PWR",
+        "tooltip": false,
+        "menu": "on-click",
+        "menu-file": "~/.config/waybar/power_menu.xml",
+        "menu-actions": {
+            "shutdown": "poweroff",
+            "reboot": "reboot"
+        }
+    }
+}

@@ -1,0 +1,76 @@
+1790349732794	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1790349940943	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790349940944	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790349940944	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790349940944	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790349940944	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790349940944	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790349940944	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"Aborting due to channel inactivity.\"  nsresult: \"0x804b000e (NS_ERROR_NET_TIMEOUT)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: abortTimeout :: line 374\"  data: no]"}
+1790350333130	Sync.Service	DEBUG	User-Agent: Firefox/155.0.1 (Linux x86_64) FxSync/1.157.0.20260904235358.desktop
+1790350333130	Sync.Service	INFO	Starting sync at 2026-09-25 12:32:13 in browser session rhT46tRoiPPE
+1790350333130	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1790350333132	Sync.Status	INFO	Resetting Status.
+1790350333132	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1790350333132	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1790350333132	FirefoxAccounts	DEBUG	getOAuthToken enter for scope 'profile'
+1790350333133	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1790350333133	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token with scope 'profile'
+1790350333133	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1790350333383	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1790350333383	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/268791631/info/collections
+1790350333384	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/268791631/info/configuration
+1790350333384	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1790350333574	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/268791631/info/configuration
+1790350333575	Sync.Service	DEBUG	Fetching global metadata record
+1790350333575	Sync.Service	DEBUG	Weave Version: 1.157.0 Local Storage: 5 Remote Storage: 5
+1790350333575	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1790350333575	Sync.Service	INFO	Testing info/collections: {"history":1790349732.66,"prefs":1789163388.81,"crypto":1744741001.02,"clients":1790336356.36,"forms":1790349732.39,"meta":1789137483.05,"bookmarks":1790342579.74}
+1790350333575	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1744741001.02
+1790350333575	Sync.Synchronizer	DEBUG	Refreshing client list.
+1790350333575	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1790350333575	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1790350333778	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/268791631/storage/clients?full=1&limit=1000
+1790350333781	Sync.Engine.Clients	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 7 reconciled.
+1790350333781	Sync.Engine.Clients	DEBUG	Refreshing the known stale clients list
+1790350333781	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/open-uri
+1790350333781	FirefoxAccounts	TRACE	Getting command keys: https://identity.mozilla.com/cmd/close-uri/v1
+1790350333781	Sync.Engine.Clients	INFO	Hiding stale client QL5E1-W7kGOD - in known stale clients list
+1790350333781	Sync.Engine.Clients	INFO	Hiding stale client 4UvqfO6ZNbih - in known stale clients list
+1790350333781	Sync.Engine.Clients	INFO	Hiding stale client 9qOydHmNhirt - in known stale clients list
+1790350333781	Sync.Engine.Clients	INFO	Hiding stale client CMTv3HB0i5N8 - in known stale clients list
+1790350333781	Sync.Engine.Clients	INFO	Hiding stale client ZSJ99_1tqqLx - in known stale clients list
+1790350333781	Sync.Engine.Clients	INFO	Uploading 0 outgoing records
+1790350333782	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=clients, subject=null
+1790350333782	Sync.Synchronizer	INFO	Updating enabled engines: 2 clients.
+1790350333782	Sync.Synchronizer	INFO	Syncing all enabled engines.
+1790350333782	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790350333782	Sync.Engine.Prefs	INFO	Uploading 0 outgoing records
+1790350333783	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=prefs, subject=null
+1790350333783	Sync.Engine.Bookmarks	DEBUG	Checking if server sync ID cbzfUAZ0Dlum matches existing
+1790350333783	Sync.Engine.Bookmarks	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790350333783	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust
+1790350333785	Sync.Engine.Bookmarks.Mirror	DEBUG	Merging bookmarks in Rust took 1.686ms
+1790350333785	Sync.Engine.Bookmarks.Mirror	DEBUG	No changes detected in both mirror and Places
+1790350333785	Sync.Engine.Bookmarks	INFO	Uploading 0 outgoing records
+1790350333786	Sync.Engine.Bookmarks.BookmarkSyncUtils	DEBUG	pushChanges: Processed change records: {"weak":0,"skipped":0,"updated":0}
+1790350333786	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=bookmarks, subject=null
+1790350333786	Sync.Engine.Forms	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790350333786	Sync.Engine.Forms	INFO	Uploading 0 outgoing records
+1790350333786	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=forms, subject=null
+1790350333786	Sync.Engine.History	DEBUG	Checking if server sync ID OX3e9d3nLeXj matches existing
+1790350333786	Sync.Engine.History	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1790350333786	Sync.Engine.History	INFO	Uploading 0 outgoing records
+1790350333786	FirefoxAccounts	TRACE	CommandQueue observed topic=weave:engine:sync:finish, data=history, subject=null
+1790350333787	Sync.Doctor	INFO	Skipping check of prefs - disabled via preferences
+1790350333787	Sync.Doctor	INFO	Skipping check of bookmarks - disabled via preferences
+1790350333787	Sync.Doctor	INFO	Skipping check of forms - disabled via preferences
+1790350333787	Sync.Doctor	INFO	Skipping check of history - disabled via preferences
+1790350333787	Sync.Doctor	INFO	Skipping validation: no engines qualify
+1790350333787	Sync.Status	DEBUG	Status.sync: success.sync => success.sync
+1790350333787	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1790350333787	Sync.Synchronizer	INFO	Sync completed at 2026-09-25 12:32:13 after 0.66 secs.
+1790350333787	Sync.Declined	DEBUG	Handling remote declined: ["addons","passwords","tabs"]
+1790350333787	Sync.Declined	DEBUG	Handling local declined: ["addons","passwords","tabs"]
+1790350333787	Sync.Declined	DEBUG	Declined changed? false
+1790350333787	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1790350333787	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)

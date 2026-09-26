@@ -1,0 +1,11 @@
+2026-09-25 13:44:27.750 [info] [AgentHost:renderer] Acquiring MessagePort to agent host...
+2026-09-25 13:44:27.774 [warning] Creation of workbench contribution 'workbench.contrib.agentHostPrewarm' took 21ms.
+2026-09-25 13:44:27.892 [info] [AgentHost:renderer] MessagePort acquired, creating client...
+2026-09-25 13:44:27.934 [info] Started local extension host with pid 40279.
+2026-09-25 13:44:27.964 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-25 13:44:27.964 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-25 13:44:27.964 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-09-25 13:44:27.986 [error] [Postman.postman-for-vscode]: Failed to register tool 'selectEnvironment': Error: Tool "selectEnvironment" is already registered.
+2026-09-25 13:44:28.010 [error] [ms-python.python]: editor/content is a proposed menu identifier. It requires 'package.json#enabledApiProposals: ["contribEditorContentMenu"]' and is only available when running out of dev or with the following command line switch: --enable-proposed-api ms-python.python
+2026-09-25 13:44:28.338 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-09-25 13:44:28.357 [info] [AgentHost:renderer] Protocol connection established; clientId=c6deda04-f127-4bac-807b-af135835bce2

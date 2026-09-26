@@ -1,0 +1,33 @@
+(2026-09-22T11:27:51.926Z) [info] [extension] Registered language model tool: openRequest
+(2026-09-22T11:27:51.927Z) [info] [extension] Registered language model tool: sendRequest
+(2026-09-22T11:27:51.927Z) [info] [extension] Registered language model tool: getCurrentWorkspace
+(2026-09-22T11:27:51.927Z) [info] [extension] Registered language model tool: switchWorkspace
+(2026-09-22T11:27:51.927Z) [info] [extension] Registered language model tool: runCollection
+(2026-09-22T11:27:51.928Z) [info] [extension] Registered language model tool: getSelectedEnvironment
+(2026-09-22T11:27:51.928Z) [info] [extension] Registered language model tool: selectEnvironment
+(2026-09-22T11:27:51.933Z) [info] [extension] Extension activation started: 1790076471871
+(2026-09-22T11:27:51.936Z) [info] [extension:packageManager] $$ ExternalPackageStore initialized with local data
+(2026-09-22T11:27:52.034Z) [info] [extension] Extension activation completed: 1790076472034
+(2026-09-22T11:27:52.034Z) [info] [extension] Extension activation took 163ms
+(2026-09-22T11:28:04.465Z) [info] [extension] Registered language model tool: openRequest
+(2026-09-22T11:28:04.466Z) [info] [extension] Registered language model tool: sendRequest
+(2026-09-22T11:28:04.466Z) [info] [extension] Registered language model tool: getCurrentWorkspace
+(2026-09-22T11:28:04.466Z) [info] [extension] Registered language model tool: switchWorkspace
+(2026-09-22T11:28:04.466Z) [info] [extension] Registered language model tool: runCollection
+(2026-09-22T11:28:04.466Z) [info] [extension] Registered language model tool: getSelectedEnvironment
+(2026-09-22T11:28:04.466Z) [info] [extension] Registered language model tool: selectEnvironment
+(2026-09-22T11:28:04.470Z) [info] [extension] Extension activation started: 1790076484427
+(2026-09-22T11:28:04.472Z) [info] [extension:packageManager] $$ ExternalPackageStore initialized with local data
+(2026-09-22T11:28:04.641Z) [info] [extension] Extension activation completed: 1790076484641
+(2026-09-22T11:28:04.642Z) [info] [extension] Extension activation took 214ms
+(2026-09-22T11:31:07.719Z) [info] [extension] Registered language model tool: openRequest
+(2026-09-22T11:31:07.719Z) [info] [extension] Registered language model tool: sendRequest
+(2026-09-22T11:31:07.719Z) [info] [extension] Registered language model tool: getCurrentWorkspace
+(2026-09-22T11:31:07.719Z) [info] [extension] Registered language model tool: switchWorkspace
+(2026-09-22T11:31:07.719Z) [info] [extension] Registered language model tool: runCollection
+(2026-09-22T11:31:07.720Z) [info] [extension] Registered language model tool: getSelectedEnvironment
+(2026-09-22T11:31:07.720Z) [info] [extension] Registered language model tool: selectEnvironment
+(2026-09-22T11:31:07.723Z) [info] [extension] Extension activation started: 1790076667686
+(2026-09-22T11:31:07.725Z) [info] [extension:packageManager] $$ ExternalPackageStore initialized with local data
+(2026-09-22T11:31:07.983Z) [info] [extension] Extension activation completed: 1790076667983
+(2026-09-22T11:31:07.984Z) [info] [extension] Extension activation took 297ms

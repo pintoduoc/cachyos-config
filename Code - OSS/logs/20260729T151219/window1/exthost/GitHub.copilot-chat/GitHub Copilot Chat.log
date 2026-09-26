@@ -1,0 +1,107 @@
+2026-07-29 15:12:28.852 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-07-29 15:12:28.852 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-07-29 15:12:28.852 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-07-29 15:12:28.852 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-07-29 15:12:28.852 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-07-29 15:12:28.852 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-07-29 15:12:28.852 [info] [CopilotCLIModels] Skipping model fetch since there is no Copilot token source
+2026-07-29 15:12:28.852 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-07-29 15:12:28.852 [info] BYOK: fetching known models list
+2026-07-29 15:12:28.852 [info] Using the Electron fetcher.
+2026-07-29 15:12:28.852 [info] activationBlocker from 'languageModelAccess' took for 132ms
+2026-07-29 15:12:28.852 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:28.852 [error] [CopilotCLISDK] Failed to initialize logger: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:28.852 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:28.852 [error] Failed to initialize Copilot CLI Session Manager: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:28.852 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:28.852 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:28.852 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:28.852 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:28.852 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:28.852 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:28.852 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-07-29 15:12:28.852 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-07-29 15:12:28.852 [info] [CopilotCLI] MCP server started. Lock file: /home/pinto/.local/state/.copilot/ide/484a5102-fe07-46ff-b460-0e6034723359.lock
+2026-07-29 15:12:28.852 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-OTuoyd/mcp.sock#%2Fmcp
+2026-07-29 15:12:28.858 [info] Logged in as pintoduoc
+2026-07-29 15:12:29.328 [info] Got Copilot token for pintoduoc
+2026-07-29 15:12:29.328 [info] Copilot Chat: 0.55.0, VS Code: 1.127.0
+2026-07-29 15:12:29.502 [info] copilot token sku: free_educational_quota
+2026-07-29 15:12:29.502 [info] ConversationFeature: Activating contributions
+2026-07-29 15:12:29.502 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-07-29 15:12:29.549 [info] Registering default platform agent...
+2026-07-29 15:12:29.556 [info] copilot token sku: free_educational_quota
+2026-07-29 15:12:29.558 [info] [code-referencing] Public code references are enabled.
+2026-07-29 15:12:29.559 [info] copilot token sku: free_educational_quota
+2026-07-29 15:12:29.559 [info] [code-referencing] Public code references are enabled.
+2026-07-29 15:12:29.559 [info] copilot token sku: free_educational_quota
+2026-07-29 15:12:29.559 [info] [code-referencing] Public code references are enabled.
+2026-07-29 15:12:29.564 [info] activationBlocker from 'conversationFeature' took for 1548ms
+2026-07-29 15:12:29.566 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-07-29 15:12:29.573 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent identity change. Has token: true
+2026-07-29 15:12:29.573 [info] copilot token sku: free_educational_quota
+2026-07-29 15:12:29.581 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-07-29 15:12:29.585 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-07-29 15:12:29.588 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:29.588 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:29.589 [error] [CopilotCLIModels] Failed to fetch available models: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:29.661 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:30.278 [info] Fetched model metadata in 2207ms f4a24d27-b7b6-4d7e-a79e-0369f4c4c001
+2026-07-29 15:12:30.547 [info] Latest entry: ccreq:latest.copilotmd
+2026-07-29 15:12:30.549 [info] ccreq:6531b2e8.copilotmd | markdown
+2026-07-29 15:12:30.618 [info] ConversationFeature: BYOK models available
+2026-07-29 15:12:30.618 [info] copilot token sku: free_educational_quota
+2026-07-29 15:12:57.366 [info] [GitExtensionServiceImpl] Initializing Git extension service.
+2026-07-29 15:12:57.366 [info] [GitExtensionServiceImpl] Successfully activated the vscode.git extension.
+2026-07-29 15:12:57.366 [info] [GitExtensionServiceImpl] Enablement state of the vscode.git extension: true.
+2026-07-29 15:12:57.366 [info] [GitExtensionServiceImpl] Successfully registered Git commit message provider.
+2026-07-29 15:12:57.366 [info] ConversationFeature: Waiting for copilot token or BYOK model to activate conversation feature
+2026-07-29 15:12:57.366 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-07-29 15:12:57.366 [info] [CopilotCLIModels] Skipping model fetch since there is no Copilot token source
+2026-07-29 15:12:57.366 [info] BYOK: registered 9 provider(s): ollama, anthropic, gemini, xai, openai, openrouter, azure, customoai, customendpoint
+2026-07-29 15:12:57.366 [info] BYOK: fetching known models list
+2026-07-29 15:12:57.366 [info] Using the Electron fetcher.
+2026-07-29 15:12:57.366 [info] activationBlocker from 'languageModelAccess' took for 119ms
+2026-07-29 15:12:57.366 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:57.366 [error] [CopilotCLISDK] Failed to initialize logger: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:57.366 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:57.366 [error] Failed to initialize Copilot CLI Session Manager: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:57.366 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:57.366 [info] BYOK: Copilot Chat known models list fetched successfully.
+2026-07-29 15:12:57.366 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without a Copilot token source
+2026-07-29 15:12:57.376 [info] Logged in as pintoduoc
+2026-07-29 15:12:57.384 [info] [CopilotCLI] MCP server started. Lock file: /home/pinto/.local/state/.copilot/ide/95015e26-4a79-428b-b9d1-bfb7f05260f4.lock
+2026-07-29 15:12:57.384 [info] [CopilotCLI] Server URI: unix:/tmp/mcp-pFedhX/mcp.sock#%2Fmcp
+2026-07-29 15:12:57.714 [info] Got Copilot token for pintoduoc
+2026-07-29 15:12:57.714 [info] Copilot Chat: 0.55.0, VS Code: 1.127.0
+2026-07-29 15:12:57.888 [info] copilot token sku: free_educational_quota
+2026-07-29 15:12:57.888 [info] ConversationFeature: Activating contributions
+2026-07-29 15:12:57.888 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2026-07-29 15:12:57.930 [info] Registering default platform agent...
+2026-07-29 15:12:57.936 [info] copilot token sku: free_educational_quota
+2026-07-29 15:12:57.937 [info] [code-referencing] Public code references are enabled.
+2026-07-29 15:12:57.938 [info] copilot token sku: free_educational_quota
+2026-07-29 15:12:57.938 [info] [code-referencing] Public code references are enabled.
+2026-07-29 15:12:57.938 [info] copilot token sku: free_educational_quota
+2026-07-29 15:12:57.938 [info] [code-referencing] Public code references are enabled.
+2026-07-29 15:12:57.943 [info] activationBlocker from 'conversationFeature' took for 1303ms
+2026-07-29 15:12:57.951 [info] [context keys] Setting context key: github.copilot-chat.activated
+2026-07-29 15:12:57.957 [info] AuthenticationService: firing onDidAuthenticationChange from handleAuthChangeEvent identity change. Has token: true
+2026-07-29 15:12:57.957 [info] copilot token sku: free_educational_quota
+2026-07-29 15:12:57.996 [info] GithubAvailableEmbeddingTypesManager: Got embeddings. Primary: metis-1024-I16-Binary. Deprecated: 
+2026-07-29 15:12:57.999 [info] WorkspaceChunkSearchService: using embedding type metis-1024-I16-Binary
+2026-07-29 15:12:58.003 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:58.003 [error] [CopilotCLISession] Failed to load @github/copilot/sdk: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:58.004 [error] [CopilotCLIModels] Failed to fetch available models: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:58.008 [error] Failed to create database. Falling back to in-memory db: Error: unable to open database file
+2026-07-29 15:12:58.178 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:58.236 [info] Fetched model metadata in 1551ms d3e3e524-c82e-4233-a80f-22d2fd54b430
+2026-07-29 15:12:58.246 [info] Latest entry: ccreq:latest.copilotmd
+2026-07-29 15:12:58.249 [info] ccreq:fd59cf3c.copilotmd | markdown
+2026-07-29 15:12:58.480 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:12:58.498 [info] ConversationFeature: BYOK models available
+2026-07-29 15:12:58.498 [info] copilot token sku: free_educational_quota
+2026-07-29 15:13:44.984 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:13:46.297 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:14:25.130 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-29 15:19:36.869 [error] Failed to get all sessions: Error: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js

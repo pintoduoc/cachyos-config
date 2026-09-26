@@ -1,0 +1,9 @@
+<application>
+  <component name="NextEditOnboardingComponent"><![CDATA[{}]]></component>
+  <component name="NextEditSettings">{
+  &quot;legacyMlCompletionResetApplied&quot;: true
+}</component>
+  <component name="NextEditUnifiedModelMigrationState">
+    <option name="migrationDone" value="true" />
+  </component>
+</application>

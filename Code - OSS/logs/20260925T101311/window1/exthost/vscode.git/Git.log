@@ -1,0 +1,39 @@
+2026-09-25 10:13:21.457 [info] [main] Log level: Info
+2026-09-25 10:13:21.457 [info] [main] Validating found git in: "git"
+2026-09-25 10:13:21.457 [info] [main] Using git "2.55.0" from "git"
+2026-09-25 10:13:21.457 [info] [Model][doInitialScan] Initial repository scan started
+2026-09-25 10:13:21.457 [info] > git rev-parse --show-toplevel [1700ms]
+2026-09-25 10:13:21.461 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [8ms]
+2026-09-25 10:13:21.522 [info] [Model][openRepository] Opened repository (path): /home/pinto/Documents/codeprojects/Frontend_Grupo11_CloudNative003D
+2026-09-25 10:13:21.522 [info] [Model][openRepository] Opened repository (real path): /home/pinto/Documents/codeprojects/Frontend_Grupo11_CloudNative003D
+2026-09-25 10:13:21.522 [info] [Model][openRepository] Opened repository (kind): repository
+2026-09-25 10:13:21.555 [info] > git config --get commit.template [14ms]
+2026-09-25 10:13:21.556 [info] > git config --get --local core.virtualfilesystem [23ms]
+2026-09-25 10:13:21.556 [warning] [Git][config] git config failed: Failed to execute git
+2026-09-25 10:13:21.580 [info] > git rev-parse --show-toplevel [32ms]
+2026-09-25 10:13:21.603 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2026-09-25 10:13:21.615 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pinto/Documents/codeprojects/Frontend_Grupo11_CloudNative003D/.git/refs/remotes/origin/main'
+2026-09-25 10:13:21.616 [info] > git rev-parse --show-toplevel [15ms]
+2026-09-25 10:13:21.617 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2026-09-25 10:13:21.648 [info] > git rev-parse refs/remotes/origin/main [33ms]
+2026-09-25 10:13:21.669 [info] > git status -z -uall [12ms]
+2026-09-25 10:13:21.671 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2026-09-25 10:13:21.745 [info] > git config --get commit.template [9ms]
+2026-09-25 10:13:21.746 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [28ms]
+2026-09-25 10:13:21.769 [info] > git config --get --local branch.main.vscode-merge-base [14ms]
+2026-09-25 10:13:21.787 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [9ms]
+2026-09-25 10:13:21.796 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [27ms]
+2026-09-25 10:13:21.804 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pinto/Documents/codeprojects/Frontend_Grupo11_CloudNative003D/.git/refs/remotes/origin/main'
+2026-09-25 10:13:21.807 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2026-09-25 10:13:21.823 [info] > git merge-base refs/heads/main refs/remotes/origin/main [28ms]
+2026-09-25 10:13:21.832 [info] > git status -z -uall [17ms]
+2026-09-25 10:13:21.835 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 981339d5a35744663ac38d16ff502d3289a42f15...refs/remotes/origin/main -- [4ms]
+2026-09-25 10:13:21.836 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [14ms]
+2026-09-25 10:13:21.934 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [5ms]
+2026-09-25 10:13:22.817 [info] > git config --get commit.template [7ms]
+2026-09-25 10:13:22.830 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2026-09-25 10:13:22.838 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pinto/Documents/codeprojects/Frontend_Grupo11_CloudNative003D/.git/refs/remotes/origin/main'
+2026-09-25 10:13:22.857 [info] > git rev-parse refs/remotes/origin/main [18ms]
+2026-09-25 10:13:22.879 [info] > git status -z -uall [14ms]
+2026-09-25 10:13:22.904 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [30ms]
+2026-09-25 10:13:22.956 [info] > git merge-base main origin/main [4ms]

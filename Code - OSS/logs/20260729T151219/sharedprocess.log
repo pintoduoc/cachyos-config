@@ -1,0 +1,7 @@
+2026-07-29 15:12:26.727 [info] Getting Manifest... vue.volar
+2026-07-29 15:12:27.600 [info] Installing extension: vue.volar {"productVersion":{"version":"1.127.0","date":"2026-06-30T11:53:00Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/pinto/.vscode-oss/extensions/extensions.json","path":"/home/pinto/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"isBuiltin":false}
+2026-07-29 15:12:29.444 [info] Extension signature verification result for vue.volar: Success. Executed: true. Duration: 151ms.
+2026-07-29 15:12:29.572 [info] Extracted extension to file:///home/pinto/.vscode-oss/extensions/vue.volar-3.3.8-universal: vue.volar
+2026-07-29 15:12:29.586 [info] Renamed to /home/pinto/.vscode-oss/extensions/vue.volar-3.3.8-universal
+2026-07-29 15:12:29.614 [info] Marked extension as removed vue.volar-3.3.6-universal
+2026-07-29 15:12:29.628 [info] Extension installed successfully: vue.volar vscode-userdata:/home/pinto/.vscode-oss/extensions/extensions.json

@@ -1,0 +1,7 @@
+2026-07-14 15:44:11.173 [info] StorageMainService: creating application shared storage
+2026-07-14 15:44:11.230 [info] [shared storage] Creating shared storage database at '/home/pinto/.vscode-oss-shared/sharedStorage/state.vscdb' (wasCreated: false)
+2026-07-14 15:44:11.231 [info] [shared storage] Initializing fallback application storage (path: /home/pinto/.config/Code - OSS/User/globalStorage/state.vscdb)
+2026-07-14 15:44:11.245 [info] [shared storage] Fallback application storage initialized with 57 items
+2026-07-14 15:44:11.246 [info] update#setState disabled
+2026-07-14 15:44:11.246 [info] update#ctor - updates are disabled as there is no update URL
+2026-07-14 15:47:58.862 [info] Extension host with pid 9724 exited with code: 0, signal: unknown.

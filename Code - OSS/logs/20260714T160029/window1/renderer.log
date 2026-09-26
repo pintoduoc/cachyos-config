@@ -1,0 +1,63 @@
+2026-07-14 16:00:30.708 [info] Started local extension host with pid 20172.
+2026-07-14 16:00:30.992 [error] Extension 'ms-python.debugpy CANNOT USE these API proposals 'portsAttributes, debugVisualization, contribViewsWelcome'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-07-14 16:00:30.992 [error] Extension 'ms-python.python CANNOT USE these API proposals 'contribEditorContentMenu, quickPickSortByLabel, testObserver, quickPickItemTooltip, terminalDataWriteEvent, terminalExecuteCommandEvent, codeActionAI, notebookReplDocument, notebookVariableProvider'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-07-14 16:00:30.993 [error] Extension 'ms-python.vscode-python-envs CANNOT USE these API proposals 'terminalShellEnv, terminalDataWriteEvent, taskExecutionTerminal'. You MUST start in extension development mode or use the --enable-proposed-api command line flag
+2026-07-14 16:00:31.010 [error] [Postman.postman-for-vscode]: Failed to register tool 'selectEnvironment': Error: Tool "selectEnvironment" is already registered.
+2026-07-14 16:00:31.471 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-14 16:00:32.170 [error] [Extension Host] (node:20172) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+(Use `exe --trace-deprecation ...` to show where the warning was created)
+2026-07-14 16:00:32.519 [error] [Extension Host] Error: Cannot find module 'source-map-support'
+Require stack:
+- /usr/lib/code/extensions/copilot/dist/extension.js
+- /usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1524:15)
+	at Module.<anonymous> (node:electron/js2c/utility_init:2:16269)
+	at n._resolveFilename (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:683:29133)
+	at wrapResolveFilename (node:internal/modules/cjs/loader:1078:27)
+	at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1102:10)
+	at defaultResolve (node:internal/modules/cjs/loader:1159:20)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolve (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:686:113)
+	at nextStep (node:internal/modules/customization_hooks:189:26)
+	at resolveWithHooks (node:internal/modules/customization_hooks:418:10)
+	at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1172:25)
+	at Module._load (node:internal/modules/cjs/loader:1301:5)
+	at Module.<anonymous> (node:electron/js2c/node_init:2:18095)
+	at i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:852:6667)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:683:28855)
+	at n._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:675:26081)
+	at wrapModuleLoad (node:internal/modules/cjs/loader:262:19)
+	at Module.require (node:internal/modules/cjs/loader:1624:12)
+	at Module.require (/usr/lib/code/extensions/copilot/dist/extension.js:261:36345)
+	at require (node:internal/modules/helpers:153:16)
+	at Object.qas [as configureDevPackages] (/usr/lib/code/extensions/copilot/dist/extension.js:7117:1385)
+	at h_n (/usr/lib/code/extensions/copilot/dist/extension.js:1161:8322)
+	at $as (/usr/lib/code/extensions/copilot/dist/extension.js:7117:1536)
+	at qd._callActivateOptional (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:538:18738)
+	at qd._callActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:538:18448)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:538:16422
+	at async Vb._activate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:534:16021)
+	at async Vb._waitForDepsThenActivate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:534:15963)
+	at async Vb._initialize (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:534:15330)
+2026-07-14 16:00:32.648 [error] Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+    at finalizeResolution (node:internal/modules/esm/resolve:275:11)
+    at moduleResolve (node:internal/modules/esm/resolve:877:10)
+    at defaultResolve (node:internal/modules/esm/resolve:1004:11)
+    at nextResolve (node:internal/modules/esm/hooks:785:28)
+    at resolve (data:text/javascript;base64,CglleHBvcnQgYXN5bmMgZnVuY3Rpb24gcmVzb2x2ZShzcGVjaWZpZXIsIGNvbnRleHQsIG5leHRSZXNvbHZlKSB7CgkJaWYgKHNwZWNpZmllciA9PT0gJ2ZzJykgewoJCQlyZXR1cm4gewoJCQkJZm9ybWF0OiAnYnVpbHRpbicsCgkJCQlzaG9ydENpcmN1aXQ6IHRydWUsCgkJCQl1cmw6ICdub2RlOm9yaWdpbmFsLWZzJwoJCQl9OwoJCX0KCgkJLy8gRGVmZXIgdG8gdGhlIG5leHQgaG9vayBpbiB0aGUgY2hhaW4sIHdoaWNoIHdvdWxkIGJlIHRoZQoJCS8vIE5vZGUuanMgZGVmYXVsdCByZXNvbHZlIGlmIHRoaXMgaXMgdGhlIGxhc3QgdXNlci1zcGVjaWZpZWQgbG9hZGVyLgoJCXJldHVybiBuZXh0UmVzb2x2ZShzcGVjaWZpZXIsIGNvbnRleHQpOwoJfQ==:13:10)
+    at nextResolve (node:internal/modules/esm/hooks:785:28)
+    at AsyncLoaderHooksOnLoaderHookWorker.resolve (node:internal/modules/esm/hooks:269:30)
+    at MessagePort.handleMessage (node:internal/modules/esm/worker:251:24)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:843:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28)
+2026-07-14 16:00:33.075 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-14 16:00:33.076 [error] [ChatSessionsService] Failed to resolve sessions for provider copilotcli Cannot find module '/usr/lib/code/extensions/copilot/node_modules/@github/copilot/sdk/index.js' imported from /usr/lib/code/extensions/copilot/dist/extension.js
+2026-07-14 16:00:33.375 [info] [perf] Render performance baseline is 19ms
+2026-07-14 16:00:33.958 [error] [listFromProviders] Failed to get agent files from provider Canceled
+2026-07-14 16:00:33.959 [error] [listFromProviders] Failed to get agent files from provider Canceled
+2026-07-14 16:00:35.314 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-07-14 16:00:36.472 [info] [AccountPolicyGate] apply: state=inactive, reason=undefined, isRestricted=false
+2026-07-14 17:02:07.284 [warning] [DefaultAccount] Managed settings fetch returned non-success status 404; falling back to local-only policy
+2026-07-14 17:55:54.644 [warning] Attempted to report in-progress status for unknown chat session type 'copilot-cloud-agent'
+2026-07-14 17:55:54.645 [warning] Attempted to report in-progress status for unknown chat session type 'copilotcli'
+2026-07-14 17:55:54.646 [warning] Attempted to report in-progress status for unknown chat session type 'claude-code'

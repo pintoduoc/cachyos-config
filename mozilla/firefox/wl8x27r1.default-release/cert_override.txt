@@ -1,0 +1,4 @@
+# PSM Certificate Override Settings file
+# This is a generated file!  Do not edit.
+mirror.anquan.cl:443:	OID.2.16.840.1.101.3.4.2.1	9A:2F:85:CC:6A:7E:4F:67:EF:68:4B:49:DA:F0:8A:DC:8A:B2:A7:D8:C3:CB:3F:04:38:FE:4F:85:BE:D2:79:1E	
+spotube.cc:443:	OID.2.16.840.1.101.3.4.2.1	A5:C4:C8:EC:67:6A:65:05:55:62:11:3D:F2:04:48:93:9A:7C:5A:37:E7:55:7D:CB:C2:98:2D:1F:FB:5D:B9:92	
