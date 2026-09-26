@@ -37,3 +37,11 @@ Error: EISDIR: illegal operation on a directory, read
 2026-09-26T14:54:41.281Z - info: [main] opening in browser: https://git-scm.com/docs/gitignore
 2026-09-26T15:07:31.463Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 1.8s of which 23.5s paused, total 25.3s
 2026-09-26T15:13:11.948Z - info: [ui] Executing getChangesFiles: git log ad303c3174afe02eff7680d2855027e1b8efc9be -C -M -m -1 --no-show-signature --first-parent --raw --format=format: --numstat -z -- (took 1.746s)
+2026-09-26T15:15:17.719Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 3.805s)
+2026-09-26T15:15:19.509Z - info: [ui] Executing createCommit: git commit -F - (took 1.785s)
+2026-09-26T15:15:19.572Z - info: [ui] [Timing] Action 'create commit' for '.config' took 5.760s
+2026-09-26T15:15:21.435Z - info: [ui] Executing getChangesFiles: git log 3512f43fe36fcd20886e5b70cfff12b15856fb13 -C -M -m -1 --no-show-signature --first-parent --raw --format=format: --numstat -z -- (took 1.735s)
+2026-09-26T15:17:04.329Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
+2026-09-26T15:17:06.508Z - error: [ui] Could not load new contents for syntax highlighting
+Error: EISDIR: illegal operation on a directory, read
