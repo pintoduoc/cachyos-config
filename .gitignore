@@ -1,8 +1,19 @@
-'GitHub Desktop'
-libreoffice
-nvm
-mozilla
-<<<<<<< HEAD
-gh
-=======
->>>>>>> d5ac44b7c0164a64158039b012d11edc7751857c
+# Ignorar todo en la raíz
+/*
+
+# Permitir carpetas completas y todo su contenido:
+!nvim/
+!waybar/
+!rofi/
+!hypr/
+!kitty/
+!fastfetch
+!spicetify/
+!fish/
+!Wallpapers/
+
+# Permitir archivos específicos en la raíz:
+!.gitignore
+
+# Permitir archivos específicos dentro de una carpeta que sí está ignorada:
+# EJEMPLO: !config/database.yml

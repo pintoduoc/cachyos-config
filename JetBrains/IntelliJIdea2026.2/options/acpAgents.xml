@@ -1,9 +1,0 @@
-<application>
-  <component name="AcpAgentSettings">
-    <option name="agent_auth">
-      <map>
-        <entry key="acp.registry.junie" value="MANAGED_EXTERNALLY" />
-      </map>
-    </option>
-  </component>
-</application>

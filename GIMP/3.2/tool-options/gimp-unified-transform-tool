@@ -1,6 +1,0 @@
-# GIMP gimp-unified-transform-tool options
-
-(background
-    (color "R'G'B'A u8" 4 "\5\5\5\377" 0))
-
-# end of gimp-unified-transform-tool options

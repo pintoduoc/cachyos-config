@@ -1,93 +1,0 @@
-2026-09-22 08:27:52.041 [info] [main] Log level: Info
-2026-09-22 08:27:52.041 [info] [main] Validating found git in: "git"
-2026-09-22 08:27:52.041 [info] [main] Using git "2.55.0" from "git"
-2026-09-22 08:27:52.041 [info] [Model][doInitialScan] Initial repository scan started
-2026-09-22 08:27:52.041 [info] > git rev-parse --show-toplevel [1332ms]
-2026-09-22 08:27:52.041 [info] fatal: not a git repository (or any parent up to mount point /)
-Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
-2026-09-22 08:27:52.041 [info] > git rev-parse --show-toplevel [29ms]
-2026-09-22 08:27:52.041 [info] fatal: not a git repository (or any parent up to mount point /)
-Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
-2026-09-22 08:27:52.054 [info] > git rev-parse --show-toplevel [6ms]
-2026-09-22 08:27:52.054 [info] fatal: not a git repository (or any parent up to mount point /)
-Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
-2026-09-22 08:27:52.054 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
-2026-09-22 08:27:52.072 [info] > git rev-parse --show-toplevel [5ms]
-2026-09-22 08:27:52.072 [info] fatal: not a git repository (or any parent up to mount point /)
-Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
-2026-09-22 08:27:52.286 [info] > git rev-parse --show-toplevel [2ms]
-2026-09-22 08:27:52.286 [info] fatal: not a git repository (or any parent up to mount point /)
-Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
-2026-09-22 08:27:53.010 [info] > git rev-parse --show-toplevel [2ms]
-2026-09-22 08:27:53.010 [info] fatal: not a git repository (or any parent up to mount point /)
-Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
-2026-09-22 08:28:01.707 [info] [main] Log level: Info
-2026-09-22 08:28:01.707 [info] [main] Validating found git in: "git"
-2026-09-22 08:28:01.707 [info] [main] Using git "2.55.0" from "git"
-2026-09-22 08:28:01.707 [info] [Model][doInitialScan] Initial repository scan started
-2026-09-22 08:28:01.707 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
-2026-09-22 08:30:46.692 [info] > git clone https://github.com/pintoduoc/Frontend_Grupo11_CloudNative003D.git /home/pinto/Documents/codeprojects/Frontend_Grupo11_CloudNative003D --progress --recursive [1315ms]
-2026-09-22 08:30:46.692 [info] Cloning into '/home/pinto/Documents/codeprojects/Frontend_Grupo11_CloudNative003D'...
-remote: Enumerating objects: 43, done.        
-remote: Counting objects:   2% (1/43)        remote: Counting objects:   4% (2/43)        remote: Counting objects:   6% (3/43)        remote: Counting objects:   9% (4/43)        remote: Counting objects:  11% (5/43)        remote: Counting objects:  13% (6/43)        remote: Counting objects:  16% (7/43)        remote: Counting objects:  18% (8/43)        remote: Counting objects:  20% (9/43)        remote: Counting objects:  23% (10/43)        remote: Counting objects:  25% (11/43)        remote: Counting objects:  27% (12/43)        remote: Counting objects:  30% (13/43)        remote: Counting objects:  32% (14/43)        remote: Counting objects:  34% (15/43)        remote: Counting objects:  37% (16/43)        remote: Counting objects:  39% (17/43)        remote: Counting objects:  41% (18/43)        remote: Counting objects:  44% (19/43)        remote: Counting objects:  46% (20/43)        remote: Counting objects:  48% (21/43)        remote: Counting objects:  51% (22/43)        remote: Counting objects:  53% (23/43)        remote: Counting objects:  55% (24/43)        remote: Counting objects:  58% (25/43)        remote: Counting objects:  60% (26/43)        remote: Counting objects:  62% (27/43)        remote: Counting objects:  65% (28/43)        remote: Counting objects:  67% (29/43)        remote: Counting objects:  69% (30/43)        remote: Counting objects:  72% (31/43)        remote: Counting objects:  74% (32/43)        remote: Counting objects:  76% (33/43)        remote: Counting objects:  79% (34/43)        remote: Counting objects:  81% (35/43)        remote: Counting objects:  83% (36/43)        remote: Counting objects:  86% (37/43)        remote: Counting objects:  88% (38/43)        remote: Counting objects:  90% (39/43)        remote: Counting objects:  93% (40/43)        remote: Counting objects:  95% (41/43)        remote: Counting objects:  97% (42/43)        remote: Counting objects: 100% (43/43)        remote: Counting objects: 100% (43/43), done.        
-remote: Compressing objects:   2% (1/34)        remote: Compressing objects:   5% (2/34)        remote: Compressing objects:   8% (3/34)        remote: Compressing objects:  11% (4/34)        remote: Compressing objects:  14% (5/34)        remote: Compressing objects:  17% (6/34)        remote: Compressing objects:  20% (7/34)        remote: Compressing objects:  23% (8/34)        remote: Compressing objects:  26% (9/34)        remote: Compressing objects:  29% (10/34)        remote: Compressing objects:  32% (11/34)        remote: Compressing objects:  35% (12/34)        remote: Compressing objects:  38% (13/34)        remote: Compressing objects:  41% (14/34)        remote: Compressing objects:  44% (15/34)        remote: Compressing objects:  47% (16/34)        remote: Compressing objects:  50% (17/34)        remote: Compressing objects:  52% (18/34)        remote: Compressing objects:  55% (19/34)        remote: Compressing objects:  58% (20/34)        remote: Compressing objects:  61% (21/34)        remote: Compressing objects:  64% (22/34)        remote: Compressing objects:  67% (23/34)        remote: Compressing objects:  70% (24/34)        remote: Compressing objects:  73% (25/34)        remote: Compressing objects:  76% (26/34)        remote: Compressing objects:  79% (27/34)        remote: Compressing objects:  82% (28/34)        remote: Compressing objects:  85% (29/34)        remote: Compressing objects:  88% (30/34)        remote: Compressing objects:  91% (31/34)        remote: Compressing objects:  94% (32/34)        remote: Compressing objects:  97% (33/34)        remote: Compressing objects: 100% (34/34)        remote: Compressing objects: 100% (34/34), done.        
-Receiving objects:   2% (1/43)Receiving objects:   4% (2/43)Receiving objects:   6% (3/43)Receiving objects:   9% (4/43)Receiving objects:  11% (5/43)Receiving objects:  13% (6/43)Receiving objects:  16% (7/43)Receiving objects:  18% (8/43)Receiving objects:  20% (9/43)Receiving objects:  23% (10/43)Receiving objects:  25% (11/43)Receiving objects:  27% (12/43)Receiving objects:  30% (13/43)Receiving objects:  32% (14/43)Receiving objects:  34% (15/43)Receiving objects:  37% (16/43)Receiving objects:  39% (17/43)Receiving objects:  41% (18/43)Receiving objects:  44% (19/43)remote: Total 43 (delta 12), reused 40 (delta 9), pack-reused 0 (from 0)        
-Receiving objects:  46% (20/43)Receiving objects:  48% (21/43)Receiving objects:  51% (22/43)Receiving objects:  53% (23/43)Receiving objects:  55% (24/43)Receiving objects:  58% (25/43)Receiving objects:  60% (26/43)Receiving objects:  62% (27/43)Receiving objects:  65% (28/43)Receiving objects:  67% (29/43)Receiving objects:  69% (30/43)Receiving objects:  72% (31/43)Receiving objects:  74% (32/43)Receiving objects:  76% (33/43)Receiving objects:  79% (34/43)Receiving objects:  81% (35/43)Receiving objects:  83% (36/43)Receiving objects:  86% (37/43)Receiving objects:  88% (38/43)Receiving objects:  90% (39/43)Receiving objects:  93% (40/43)Receiving objects:  95% (41/43)Receiving objects:  97% (42/43)Receiving objects: 100% (43/43)Receiving objects: 100% (43/43), 46.06 KiB | 1003.00 KiB/s, done.
-Resolving deltas:   0% (0/12)Resolving deltas:   8% (1/12)Resolving deltas:  16% (2/12)Resolving deltas:  25% (3/12)Resolving deltas:  33% (4/12)Resolving deltas:  41% (5/12)Resolving deltas:  50% (6/12)Resolving deltas:  58% (7/12)Resolving deltas:  66% (8/12)Resolving deltas:  75% (9/12)Resolving deltas:  83% (10/12)Resolving deltas:  91% (11/12)Resolving deltas: 100% (12/12)Resolving deltas: 100% (12/12), done.
-2026-09-22 08:31:08.128 [info] [main] Log level: Info
-2026-09-22 08:31:08.128 [info] [main] Validating found git in: "git"
-2026-09-22 08:31:08.128 [info] [main] Using git "2.55.0" from "git"
-2026-09-22 08:31:08.128 [info] [Model][doInitialScan] Initial repository scan started
-2026-09-22 08:31:08.128 [info] > git rev-parse --show-toplevel [2847ms]
-2026-09-22 08:31:08.138 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [34ms]
-2026-09-22 08:31:08.332 [info] [Model][openRepository] Opened repository (path): /home/pinto/Documents/codeprojects/Frontend_Grupo11_CloudNative003D
-2026-09-22 08:31:08.333 [info] [Model][openRepository] Opened repository (real path): /home/pinto/Documents/codeprojects/Frontend_Grupo11_CloudNative003D
-2026-09-22 08:31:08.333 [info] [Model][openRepository] Opened repository (kind): repository
-2026-09-22 08:31:08.393 [info] > git config --get --local core.virtualfilesystem [48ms]
-2026-09-22 08:31:08.393 [warning] [Git][config] git config failed: Failed to execute git
-2026-09-22 08:31:08.397 [info] > git config --get commit.template [28ms]
-2026-09-22 08:31:08.402 [info] > git rev-parse --show-toplevel [25ms]
-2026-09-22 08:31:08.424 [info] > git rev-parse --show-toplevel [3ms]
-2026-09-22 08:31:08.425 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
-2026-09-22 08:31:08.426 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [15ms]
-2026-09-22 08:31:08.434 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pinto/Documents/codeprojects/Frontend_Grupo11_CloudNative003D/.git/refs/remotes/origin/main'
-2026-09-22 08:31:08.439 [info] > git rev-parse refs/remotes/origin/main [4ms]
-2026-09-22 08:31:08.465 [info] > git status -z -uall [16ms]
-2026-09-22 08:31:08.466 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [5ms]
-2026-09-22 08:31:08.529 [info] > git config --get commit.template [6ms]
-2026-09-22 08:31:08.529 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [23ms]
-2026-09-22 08:31:08.543 [info] > git config --get --local branch.main.vscode-merge-base [6ms]
-2026-09-22 08:31:08.543 [warning] [Git][config] git config failed: Failed to execute git
-2026-09-22 08:31:08.565 [info] > git reflog main --grep-reflog=branch: Created from *. [13ms]
-2026-09-22 08:31:08.578 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [5ms]
-2026-09-22 08:31:08.586 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
-2026-09-22 08:31:08.594 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pinto/Documents/codeprojects/Frontend_Grupo11_CloudNative003D/.git/refs/remotes/origin/main'
-2026-09-22 08:31:08.612 [info] > git rev-parse refs/remotes/origin/main [17ms]
-2026-09-22 08:31:08.628 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [42ms]
-2026-09-22 08:31:08.638 [info] > git status -z -uall [18ms]
-2026-09-22 08:31:08.857 [info] > git config --add --local branch.main.vscode-merge-base origin/main [220ms]
-2026-09-22 08:31:08.858 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [230ms] (cancelled)
-2026-09-22 08:31:08.883 [info] > git config --get commit.template [5ms]
-2026-09-22 08:31:08.991 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [18ms]
-2026-09-22 08:31:09.001 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pinto/Documents/codeprojects/Frontend_Grupo11_CloudNative003D/.git/refs/remotes/origin/main'
-2026-09-22 08:31:09.006 [info] > git rev-parse refs/remotes/origin/main [5ms]
-2026-09-22 08:31:09.042 [info] > git status -z -uall [27ms]
-2026-09-22 08:31:09.057 [info] > git check-ignore -v -z --stdin [5ms]
-2026-09-22 08:31:09.058 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [34ms]
-2026-09-22 08:31:09.091 [info] > git merge-base refs/heads/main refs/remotes/origin/main [10ms]
-2026-09-22 08:31:09.102 [info] > git merge-base refs/heads/main refs/remotes/origin/main [30ms]
-2026-09-22 08:31:09.129 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 981339d5a35744663ac38d16ff502d3289a42f15...refs/remotes/origin/main -- [15ms]
-2026-09-22 08:31:09.131 [info] > git diff --raw --numstat --diff-filter=ADMR -z --find-renames=50% 981339d5a35744663ac38d16ff502d3289a42f15...refs/remotes/origin/main -- [30ms]
-2026-09-22 08:31:09.532 [info] > git config --get commit.template [6ms]
-2026-09-22 08:31:09.544 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
-2026-09-22 08:31:09.552 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pinto/Documents/codeprojects/Frontend_Grupo11_CloudNative003D/.git/refs/remotes/origin/main'
-2026-09-22 08:31:09.556 [info] > git rev-parse refs/remotes/origin/main [4ms]
-2026-09-22 08:31:09.576 [info] > git status -z -uall [12ms]
-2026-09-22 08:31:09.577 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
-2026-09-22 08:31:18.618 [info] > git check-ignore -v -z --stdin [2ms]
-2026-09-22 08:31:20.918 [info] > git config --get commit.template [10ms]
-2026-09-22 08:31:20.919 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
-2026-09-22 08:31:20.927 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/pinto/Documents/codeprojects/Frontend_Grupo11_CloudNative003D/.git/refs/remotes/origin/main'
-2026-09-22 08:31:20.928 [info] > git rev-parse refs/remotes/origin/main [1ms]
-2026-09-22 08:31:20.947 [info] > git status -z -uall [10ms]
-2026-09-22 08:31:20.948 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [2ms]
